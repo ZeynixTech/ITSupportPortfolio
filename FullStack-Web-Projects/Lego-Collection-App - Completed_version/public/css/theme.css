@@ -1,0 +1,133 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600&display=swap');
+
+/* Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+    background-color: #f4f7f9;
+    color: #2c3e50;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.bg-light {
+    background-color: #1e3a8a !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff !important;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-family: 'Great Vibes', cursive;
+    color: #e0e7ff !important;
+    padding: 0.5rem 1rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #93c5fd !important;
+    text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #1f2937;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    margin: 2rem auto;
+    width: 90%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    border: 1px solid #e5e7eb;
+    padding: 14px;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    padding: 4px 0;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: 'Great Vibes', cursive;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+/* Image Cards */
+.food {
+    width: 320px;
+    height: 220px;
+    margin: 12px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Section Cards */
+.food-section, .content-section {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+    font-family: 'Great Vibes', cursive;
+}
+
+.food-section:hover, .content-section:hover {
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Variants */
+.section-dark {
+    background-color: #1f2937;
+    color: #f3f4f6;
+}
+
+.section-light {
+    background-color: #ffffff;
+    color: #111827;
+}
